@@ -9,7 +9,7 @@ const Contact = () => {
     const refForm = useRef();
 
     useEffect(() => {
-        emailjs.init('hS9afZVguW3ahELZY'); // Replace with your Public Key
+        emailjs.init(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
     }, []);
 
     const sendEmail = (e) => {
@@ -17,10 +17,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'service_fnevxax',
-                'template_x0czlmn',
+                process.env.REACT_APP_SERVICE_ID, 
+                process.env.REACT_APP_TEMPLATE_ID, 
                 refForm.current,
-                'hS9afZVguW3ahELZY'
+                process.env.REACT_APP_EMAILJS_PUBLIC_KEY 
             )
             .then(
                 () => {
