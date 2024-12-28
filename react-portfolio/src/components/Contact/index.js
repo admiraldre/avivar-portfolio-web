@@ -3,10 +3,12 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom'; 
 
 const Contact = () => {
     const [letterClass] = useState('text-animate');
     const refForm = useRef();
+    const navigate = useNavigate();
 
     useEffect(() => {
         emailjs.init(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
@@ -26,6 +28,7 @@ const Contact = () => {
                 () => {
                     alert('Email sent successfully!');
                     refForm.current.reset();
+                    navigate('/');
                 },
                 () => {
                     alert('Email failed to send!');
