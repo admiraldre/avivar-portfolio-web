@@ -23,7 +23,7 @@ const Home = () => {
                         <br />
                         <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={19} />
                     </h1>
-                    <h2>Data Engineer / AI & ML Engineer / One Piece Fan</h2>
+                    <h2>Data Engineering / AI & ML Engineering / One Piece Fan</h2>
                     <Link to='/contact' className='flat-button'>Contact Me!</Link>
                 </div>
             </div>
