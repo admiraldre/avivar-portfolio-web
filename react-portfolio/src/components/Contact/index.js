@@ -25,7 +25,7 @@ const Contact = () => {
             .then(
                 () => {
                     alert('Email sent successfully!');
-                    window.location.reload(false);
+                    refForm.current.reset();
                 },
                 () => {
                     alert('Email failed to send!');
