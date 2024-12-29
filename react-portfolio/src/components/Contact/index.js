@@ -43,6 +43,7 @@ const Contact = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={['C','o','n','t','a','c','t',' ','M','e']} idx={15} />
                     </h1>
                     <p>Want to connect? Send me a message! I am always looking for connections and opportunities to network!</p>
+                    <p>This message will be sent to vivardre@gmail.com</p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
