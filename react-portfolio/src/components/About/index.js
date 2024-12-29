@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import './index.scss';
 import Loader from 'react-loaders'
+import Timeline from '../Timeline';
 
 const About = () => {
     const [letterClass] = useState('text-animate');
@@ -22,6 +23,7 @@ const About = () => {
                     <p>paragprah1</p>
                     <p>paragprah2</p>
                     <p>paragprah3</p>
+                    <Timeline />
                 </div>
 
                 <div className='stage-cube-cont'>
@@ -46,6 +48,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                
             </div>
             <Loader type='pacman'/>
         </>

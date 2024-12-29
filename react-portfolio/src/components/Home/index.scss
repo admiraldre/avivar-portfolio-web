@@ -17,19 +17,19 @@
         font-weight: 400;
 
         &::before{
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
+            content: 'std::cout <<';
+            font-family: 'Coolvetica';
             color: #ffd700;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
-            left: 15px;
+            left: 0px;
             opacity: 0.6;
         }
 
         &::after{
-            content: '<h1/>';
-            font-family: 'La Belle Aurore';
+            content: '<< std::endl;';
+            font-family: 'Coolvetica';
             color: #ffd700;
             font-size: 18px;
             position: absolute;
