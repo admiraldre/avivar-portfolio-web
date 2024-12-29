@@ -16,7 +16,7 @@
     "react-leaflet": "^5.0.0",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^7.1.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-vertical-timeline-component": "^3.5.3",
     "sass": "^1.83.0"
   },
