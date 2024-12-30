@@ -2,6 +2,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react';
 import Loader from 'react-loaders';
+import kfsdbimg from '../../assets/images/kfs_db.png';
 
 const Projects = () => {
     const [letterClass] = useState('text-animate');
@@ -14,10 +15,38 @@ const Projects = () => {
             youtube: 'https://www.youtube.com/watch?v=yourvideoid'
         },
         {
-            title: 'Project 2',
-            description: 'Description of project 2.',
-            screenshot: 'path_to_screenshot_2.jpg',
-            github: 'https://github.com/yourusername/project2',
+            title: 'MovieMart Online Library',
+            description: 'Worked with KFS to revamp the MovieMart online library. The project involved migrating the existing library to a new platform and adding new features.',
+            screenshot: kfsdbimg,
+            github: 'https://github.com/admiraldre/kfs-moviemart-database',
+            youtube: 'https://www.youtube.com/watch?v=yourvideoid'
+        },
+        {
+            title: 'Project 3',
+            description: 'Description of project 3.',
+            screenshot: 'path_to_screenshot_3.jpg',
+            github: 'https://github.com/yourusername/project3',
+            youtube: 'https://www.youtube.com/watch?v=yourvideoid'
+        },
+        {
+            title: 'MovieMart Online Library',
+            description: 'Worked with KFS to revamp the MovieMart online library. The project involved migrating the existing library to a new platform and adding new features.',
+            screenshot: kfsdbimg,
+            github: 'https://github.com/admiraldre/kfs-moviemart-database',
+            youtube: 'https://www.youtube.com/watch?v=yourvideoid'
+        },
+        {
+            title: 'Project 3',
+            description: 'Description of project 3.',
+            screenshot: 'path_to_screenshot_3.jpg',
+            github: 'https://github.com/yourusername/project3',
+            youtube: 'https://www.youtube.com/watch?v=yourvideoid'
+        },
+        {
+            title: 'MovieMart Online Library',
+            description: 'Worked with KFS to revamp the MovieMart online library. The project involved migrating the existing library to a new platform and adding new features.',
+            screenshot: kfsdbimg,
+            github: 'https://github.com/admiraldre/kfs-moviemart-database',
             youtube: 'https://www.youtube.com/watch?v=yourvideoid'
         },
         {
@@ -40,7 +69,7 @@ const Projects = () => {
                             idx={15}
                         />
                     </h1>
-                    <div>
+                    <div className='project-grid'>
                         {projects.map((project, index) => (
                             <div className='project-card' key={index}>
                                 <h2>{project.title}</h2>
