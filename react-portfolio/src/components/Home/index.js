@@ -3,11 +3,12 @@ import './index.scss';
 import { useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
+import selfphoto from '../../assets/images/self_photo.png';
 
 const Home = () => {
     const [letterClass] = useState('text-animate');
-    const nameArray = [' ','A', 'n', 'd', 'r', 'e', 'i'];
-    const jobArray = ['S', 'o', 'f','t','w', 'a','r','e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '"'];
+    const nameArray = [' ', 'A', 'n', 'd', 'r', 'e', 'i'];
+    const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '"'];
 
     return (
         <>
@@ -24,7 +25,13 @@ const Home = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={18} />
                     </h1>
                     <h2>Data Engineering / AI & ML Engineering / One Piece Fan</h2>
-                    <Link to='/contact' className='flat-button'>Contact Me!</Link>
+                    <div className='button-group'>
+                        <Link to='/contact' className='flat-button'>Contact Me!</Link>
+                        <a className='flat-button resume-button' href='https://www.linkedin.com/in/andrei-vivar/' target='_blank' rel='noopener noreferrer'>My Resume</a>
+                    </div>
+                </div>
+                <div className='self-photo-cont'>
+                    <img src={selfphoto} alt='self' className='self-photo' />
                 </div>
             </div>
             <Loader type='pacman' />
