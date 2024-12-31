@@ -165,7 +165,7 @@
             opacity: 1;
             transform: translateY(0);
         }
-        
+
         p {
             font-size: 13px;
             color: #fff;
@@ -186,6 +186,22 @@
             &:nth-of-type(3) {
                 animation-delay: 1.3s;
             }
+        }
+        
+        .more-projects {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        
+        .more-projects a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        
+        .more-projects a:hover {
+            text-decoration: underline;
         }
     }
 }

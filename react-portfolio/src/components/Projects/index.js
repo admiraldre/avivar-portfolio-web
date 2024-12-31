@@ -9,7 +9,7 @@ import instrutrackerimg from '../../assets/images/instrutracker.png';
 import cybersecimg from '../../assets/images/cyberimg.png';
 import vwimg from '../../assets/images/vitalwatch.png';
 import ovimg from '../../assets/images/ovimg.png';
-// import droneimg from '../../assets/images/drone.png';
+import droneimg from '../../assets/images/drone.png';
 
 const Projects = () => {
     const [letterClass] = useState('text-animate');
@@ -77,10 +77,10 @@ const Projects = () => {
             company: 'Flying Autonomous Robotics Technology',
             date: 'Sept 2024 - Current',
             description: 'Developed as part of our 5th Year Capstone Project - Computer Vision Drone. The toolbox is used to process images and videos captured by the drone camera.',
-            // screenshot: droneimg,
+            screenshot: droneimg,
             github: 'https://github.com/admiraldre/dronecamtoolbox',
-            // youtube: 'https://www.youtube.com/watch?v=yourvideoid',
-            technologies: ['Python', 'OpenCV', 'Kalibr', 'ROS']
+            youtube: 'https://drive.google.com/file/d/1Qi1DpFFHuqvmLWB-q94KjqfiMWBuZ-tp/view?usp=sharing',
+            technologies: ['Python', 'OpenCV', 'Kalibr', 'ROS', 'Docker', 'Git', 'Linux', 'Bash']
         },
         {
             title: 'Portfolio Website',
@@ -109,7 +109,7 @@ const Projects = () => {
         },
         {
             title: 'VitalWatch',
-            date: 'Oct 2024 - Nov 2024',
+            date: 'Sept 2024 - Nov 2024',
             description: 'The Heart Rate Monitor App is an Android application developed in Android Studio to track and manage heart rate data effectively. This app incorporates modern Software Design Patterns to ensure a robust, scalable, and maintainable architecture.',
             screenshot: vwimg,
             github: 'https://github.com/admiraldre/vitalwatch',
@@ -118,7 +118,7 @@ const Projects = () => {
         },
         {
             title: 'InstruTracker',
-            date: 'Oct 2024 - Nov 2024',
+            date: 'Feb 2024 - March 2024',
             description: 'Created a MERN stack web application for Music Practice Tracking that lets users log their practice sessions, set goals and collaborate with other musicians on the public forum. This project is inspired from apps such as Duolingo, to keep upcoming musicians accountable with their music practice journey.',
             screenshot: instrutrackerimg,
             github: 'https://github.com/admiraldre/instrutracker-webproject',
@@ -179,6 +179,9 @@ const Projects = () => {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                    <div className='more-projects'>
+                        <p>Want to see more of my projects? Check out my <a href='https://github.com/admiraldre' target='_blank' rel='noopener noreferrer'>Github</a></p>
                     </div>
                 </div>
             </div>
