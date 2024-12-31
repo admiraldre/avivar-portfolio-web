@@ -1,81 +1,197 @@
-.stage-cube-cont {
-    width: 50%;
-    height: 100%;
-    top: 0;
-    padding-top: 18%;
-    margin-left: 0;
-    position: absolute;
-    right: 0;
-    overflow: hidden;
+/* General Container Styles */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  margin: 0 auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* About Me Section */
+.about-me {
+  width: 100%;
+  padding: 5% 10%;
+  // background-color: #1e1e1e;
+  color: #fff;
+  text-align: left;
+
+  h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
   }
-  
-  .cubespinner {
-    animation-name: spincube;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
-    transform-style: preserve-3d;
-    transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
-  
-    div {
-      position: absolute;
-      width: 200px;
-      height: 200px;
-      border: 1px solid #ccc;
-      background: rgba(255, 255, 255, 0.4);
-      text-align: center;
-      font-size: 100px;
+
+  p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+  }
+}
+
+/* Skills Section */
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  // background-color: #2b2b2b;
+
+  .stage-cube-cont {
+      width: 50%;
+      height: auto;
+      position: relative;
+      margin: auto;
+
+      .cubespinner {
+          animation-name: spincube;
+          animation-timing-function: ease-in-out;
+          animation-iteration-count: infinite;
+          animation-duration: 12s;
+          transform-style: preserve-3d;
+          transform-origin: 100px 100px 0;
+          margin-left: calc(50% - 100px);
+
+          div {
+              position: absolute;
+              width: 200px;
+              height: 200px;
+              border: 1px solid #ccc;
+              background: rgba(255, 255, 255, 0.4);
+              text-align: center;
+              font-size: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              box-shadow: 0 0 20px 0px lightyellow;
+          }
+
+          .face1 {
+              transform: translateZ(100px);
+              color: #dd0031;
+          }
+          .face2 {
+              transform: rotateY(90deg) translateZ(100px);
+              color: #f06529;
+          }
+          .face3 {
+              transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+              color: #28a4d9;
+          }
+          .face4 {
+              transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+              color: #5ed4f4;
+          }
+          .face5 {
+              transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+              color: #efd81d;
+          }
+          .face6 {
+              transform: rotateX(-90deg) translateZ(100px);
+              color: #ec4d28;
+          }
+      }
+  }
+
+  .other-skills {
+      width: 45%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 20px 0px lightyellow;
-    }
-  
-    .face1 {
-      transform: translateZ(100px);
-      color: #dd0031;
-    }
-    .face2 {
-      transform: rotateY(90deg) translateZ(100px);
-      color: #f06529;
-    }
-    .face3 {
-      transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-      color: #28a4d9;
-    }
-    .face4 {
-      transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-      color: #5ed4f4;
-    }
-    .face5 {
-      transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-      color: #efd81d;
-    }
-    .face6 {
-      transform: rotateX(-90deg) translateZ(100px);
-      color: #ec4d28;
-    }
+      gap: 20px;
+
+      .skill-box {
+          width: 100px;
+          height: 100px;
+          // background: #333;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+          text-align: center;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+          img {
+              width: 40px;
+              height: 40px;
+              margin-bottom: 10px;
+          }
+
+          span {
+              font-size: 1rem;
+          }
+      }
   }
-  
-  @keyframes spincube {
-    from,
-    to {
+}
+
+/* Timeline and Testimonials Section */
+.timeline-testimonials {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+  // background-color: #1e1e1e;
+
+  .timeline {
+      width: 45%;
+      // background-color: #2b2b2b;
+      padding: 2%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .testimonials {
+      width: 45%;
+      // background-color: #2b2b2b;
+      padding: 2%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+      h2 {
+          font-size: 2rem;
+          color: #ffd700;
+          margin-bottom: 1rem;
+      }
+
+      .testimonial {
+          margin-bottom: 1.5rem;
+
+          p {
+              font-size: 1rem;
+              line-height: 1.6;
+              margin-bottom: 0.5rem;
+          }
+
+          .author {
+              font-size: 0.9rem;
+              font-style: italic;
+              color: #aaa;
+          }
+      }
+  }
+}
+
+/* Keyframes */
+@keyframes spincube {
+  from,
+  to {
       transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    }
-    16% {
-      transform: rotateY(-90deg) rotateZ(90deg);
-    }
-    33% {
-      transform: rotateY(-90deg) rotateX(90deg);
-    }
-    50% {
-      transform: rotateY(-180deg) rotateZ(90deg);
-    }
-    66% {
-      transform: rotateY(-270deg) rotateX(90deg);
-    }
-    83% {
-      transform: rotateX(90deg);
-    }
   }
+  16% {
+      transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  33% {
+      transform: rotateY(-90deg) rotateX(90deg);
+  }
+  50% {
+      transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+      transform: rotateY(-270deg) rotateX(90deg);
+  }
+  83% {
+      transform: rotateX(90deg);
+  }
+}
