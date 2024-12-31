@@ -76,18 +76,11 @@ const Projects = () => {
             title: 'Drone Camera Toolbox',
             company: 'Flying Autonomous Robotics Technology',
             date: 'Sept 2024 - Current',
-            description: 'Developed as part of our 5th Year Capstone Project - Computer Vision Drone. The toolbox is used to process images and videos captured by the drone camera.',
+            description: 'Developed as part of our 5th Year Capstone Project - Computer Vision Drone. The toolbox provides a docker environment for all tools needed to control the camera of the drone.',
             screenshot: droneimg,
             github: 'https://github.com/admiraldre/dronecamtoolbox',
             youtube: 'https://drive.google.com/file/d/1Qi1DpFFHuqvmLWB-q94KjqfiMWBuZ-tp/view?usp=sharing',
             technologies: ['Python', 'OpenCV', 'Kalibr', 'ROS', 'Docker', 'Git', 'Linux', 'Bash']
-        },
-        {
-            title: 'Portfolio Website',
-            description: 'Developed a portfolio website to showcase my projects and skills.',
-            screenshot: portfolioimg,
-            github: 'https://github.com/admiraldre/avivar-portfolio-web',
-            technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Netlify', 'Sass', 'GitHub', 'Git'],
         },
         {
             title: 'Cybersecurity Threat Classifier',
@@ -96,16 +89,7 @@ const Projects = () => {
             screenshot: cybersecimg,
             github: 'https://github.com/admiraldre/ml-cybersecurity',
             youtube: 'https://youtu.be/E5UeaKbBrKw',
-            technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Sass']
-        },
-        {
-            title: 'OnigiriVault',
-            date: 'Oct 2024 - Nov 2024',
-            description: 'OnigiriVault is an anime and manga recommender app that helps users track and recommend anime based on their preferences. It uses the Jikan API to fetch anime data from MyAnimeList, and it integrates several AWS services to manage user data, store preferences, and generate recommendations.',
-            screenshot: ovimg,
-            github: 'https://github.com/admiraldre/onigirivault',
-            youtube: 'https://youtu.be/2c7q1s4Jxv8',
-            technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Sass']
+            technologies: ['Python', 'pandas', 'numpy', 'scikit-learn', 'TensorFlow', 'Matplotlib', 'Seaborn']
         },
         {
             title: 'VitalWatch',
@@ -115,6 +99,22 @@ const Projects = () => {
             github: 'https://github.com/admiraldre/vitalwatch',
             youtube: 'https://youtu.be/ayDxfdFUevM',
             technologies: ['Java', 'Android Studio', 'Google Firebase', 'Google Fit API', 'Software Design Patterns', 'Git', 'GitHub']
+        },
+        {
+            title: 'Portfolio Website',
+            description: 'Developed a portfolio website to showcase my projects and skills.',
+            screenshot: portfolioimg,
+            github: 'https://github.com/admiraldre/avivar-portfolio-web',
+            technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Netlify', 'Sass', 'GitHub', 'Git'],
+        },
+        {
+            title: 'OnigiriVault',
+            date: 'Oct 2024 - Nov 2024',
+            description: 'OnigiriVault is an anime and manga recommender app that helps users track and recommend anime based on their preferences. It uses the Jikan API to fetch anime data from MyAnimeList, and it integrates several AWS services to manage user data, store preferences, and Personalize ML Model to generate recommendations.',
+            screenshot: ovimg,
+            github: 'https://github.com/admiraldre/onigirivault',
+            youtube: 'https://youtu.be/2c7q1s4Jxv8',
+            technologies: ['Python','Postman','AWS S3', 'AWS Cognito', 'AWS Lambda', 'AWS Step Functions', 'API Gateway', 'Amazon Xray', 'AWS SNS', 'AWS Personalize', 'Jikan API']
         },
         {
             title: 'InstruTracker',
