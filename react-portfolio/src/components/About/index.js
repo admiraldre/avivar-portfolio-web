@@ -11,7 +11,7 @@ const About = () => {
     const [letterClass] = useState('text-animate');
     const skillsData = {
         "Programming Languages": [
-            "Python", "C++", "C", "Java", "JavaScript", "PHP"
+            "Python", "SQL", "JavaScript", "Java", "C++", "C"
         ],
         "Machine Learning": [
             "TensorFlow", "scikit-learn", "NumPy", "pandas", "PyTorch"
@@ -21,10 +21,10 @@ const About = () => {
             "Ollama", "CrewAI", "LangChain", "LangSmith"
         ],
         "Databases": [
-            "Postgres", "MySQL", "MongoDB"
+            "Postgres", "MySQL", "MongoDB", "Firebase"
         ],
         "Web Development": [
-            "HTML", "CSS", "React", "Node.js"
+            "HTML", "CSS", "React", "Node.js", "Express", "Flask"
         ],
         "Cloud Technologies": [
             "AWS", "GCP (Google Cloud Platform)"
