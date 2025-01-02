@@ -7,7 +7,7 @@
     border-left: 2px solid #ffd700;
 
     h2{
-        color: #fff;
+        color: #ffd700;
     }
 
     .timeline-item {
@@ -28,10 +28,10 @@
         }
 
         .timeline-content {
-            background: #2a2a2a;
+            background: #181818;
             padding: 15px;
             border-radius: 8px;
-            color: #fff;
+            color: #ffd700;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
             h3 {
@@ -43,7 +43,7 @@
             p {
                 margin: 0;
                 font-size: 0.9rem;
-                color: #ccc;
+                color: #fff;
             }
         }
 
@@ -56,7 +56,7 @@
             height: 14px;
             background: #ffd700;
             border-radius: 50%;
-            border: 2px solid #2a2a2a;
+            border: 2px solid #181818;
         }
     }
 }
