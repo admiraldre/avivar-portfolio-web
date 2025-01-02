@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faCloud, faScrewdriverWrench, faRobot, faMicrochip, faHexagonNodes, faWindowRestore } from '@fortawesome/free-solid-svg-icons';
 import './index.scss';
 import Loader from 'react-loaders';
-import Timeline from '../Timeline';
+// import Timeline from '../Timeline';
 import aboutPhoto from '../../assets/images/about_photo.png';
 
 const About = () => {
@@ -48,10 +48,10 @@ const About = () => {
         "Comp. Vision & Robotics": faRobot
     };
 
-    const testimonials = {
-        'Colette Abbott': 'We hired Andrei through the Canada Summer Jobs program to design and build an online database for our DVD rental collection and an online poster store. Andrei completed these projects on schedule and went over and above his job description helping our team with various tech challenges. He is an excellent communicator and problem-solver and was a pleasure to work with. I would highly recommend Andrei to future employers and look forward to seeing where his skills and can-do attitude take him!',
-        'Alma Klarich': 'I hired Andrei as a student co-op in early 2024 to support our department with our data analytic capabilities. In the four-month term, I found Andrei to be very reliable and professional. He was willing to learn new things that were not always directly related to his studies, and in a profession that was unfamiliar to him (internal auditing). He has a very pleasant personality and attitude, combined with a sought-after technical skill set. I would not hesitate to recommend him to future employers. All the best to you, Andrei, as you take on new pursuits!'
-        };
+    // const testimonials = {
+    //     'Colette Abbott': 'We hired Andrei through the Canada Summer Jobs program to design and build an online database for our DVD rental collection and an online poster store. Andrei completed these projects on schedule and went over and above his job description helping our team with various tech challenges. He is an excellent communicator and problem-solver and was a pleasure to work with. I would highly recommend Andrei to future employers and look forward to seeing where his skills and can-do attitude take him!',
+    //     'Alma Klarich': 'I hired Andrei as a student co-op in early 2024 to support our department with our data analytic capabilities. In the four-month term, I found Andrei to be very reliable and professional. He was willing to learn new things that were not always directly related to his studies, and in a profession that was unfamiliar to him (internal auditing). He has a very pleasant personality and attitude, combined with a sought-after technical skill set. I would not hesitate to recommend him to future employers. All the best to you, Andrei, as you take on new pursuits!'
+    //     };
 
     return (
         <>
