@@ -1,8 +1,7 @@
 import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faDatabase, faCloud, faScrewdriverWrench, faRobot, faMicrochip, faHexagonNodes } from '@fortawesome/free-solid-svg-icons';
-import { faCss3, faGitAlt, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faDatabase, faCloud, faScrewdriverWrench, faRobot, faMicrochip, faHexagonNodes, faWindowRestore } from '@fortawesome/free-solid-svg-icons';
 import './index.scss';
 import Loader from 'react-loaders';
 import Timeline from '../Timeline';
@@ -44,7 +43,7 @@ const About = () => {
         "Machine Learning": faHexagonNodes,
         "Cloud Technologies": faCloud,
         "Developer Tools": faScrewdriverWrench,
-        "Web Development": faReact,
+        "Web Development": faWindowRestore,
         "AI Technologies": faMicrochip,
         "Comp. Vision & Robotics": faRobot
     };
