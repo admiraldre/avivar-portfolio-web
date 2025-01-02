@@ -118,7 +118,7 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Timeline and Testimonials Section */}
+                {/* Timeline and Testimonials Section
                 <div className="timeline-testimonials">
                     <div className="timeline-container">
                         <Timeline />
@@ -127,7 +127,7 @@ const About = () => {
                         <h2>Testimonials</h2>
                         
                     </div>
-                </div>
+                </div> */}
             </div>
             <Loader type="pacman" />
         </>
