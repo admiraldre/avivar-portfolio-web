@@ -86,7 +86,7 @@ const About = () => {
                         </div>
 
                         <div class="third-parag">
-                            Outside of work, I’m living proof that tech nerds can have fun too. Back in 2020, I founded the <strong>TRUSU Anime Club</strong>, and guess what? It’s now thriving with over <strong>500 members</strong>.
+                            Outside of work, I’m a living proof that tech nerds can have fun too. Back in 2020, I founded the <strong>TRUSU Anime Club</strong>, and guess what? It’s now thriving with over <strong>500 members</strong>.
                             &#40;Yes, I’m basically the Luffy of this pirate crew.&#41; Speaking of pirates, <strong>One Piece</strong> is my all-time
                             favorite anime. As for games, I’ve been playing them since I could hold a controller, and my all-time favorite
                             is <strong>Persona 5 Royal</strong>. I even try to gamify my life—because if you’re not earning XP, are you even
