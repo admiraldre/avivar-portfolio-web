@@ -72,7 +72,7 @@ const About = () => {
                         </h1>
                         <div class="first-parag">
                             Hey 👋! I’m Andrei Vivar, a 5th-year Software Engineering student at Thompson Rivers University, and your friendly
-                            neighborhood aspiring Data Engineer and AI/ML enthusiast. Thanks to my program at TRU, I’ve built a rock-solid
+                            neighborhood aspiring Software Engineer and AI/ML enthusiast. Thanks to my program at TRU, I’ve built a rock-solid
                             foundation in software engineering &#40;including debugging at 3 a.m.—a true rite of passage&#41;. These skills have
                             equipped me not just to survive the tech world, but to thrive and innovate within it.
                         </div>
