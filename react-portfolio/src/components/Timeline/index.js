@@ -28,9 +28,9 @@ const timelineElements = [
     },
     {
         date: 'Jun 2024 - Dec 2024',
-        title: 'Full-stack Database Developer at Kamloops Film Society',
+        title: 'Full-stack Developer at Kamloops Film Society',
         location: 'Kamloops, BC',
-        description: 'Lead the development of a new database system for the Kamloops Film Society.',
+        description: 'Led the development of a new database system for the Kamloops Film Society.',
     },
     {
         date: 'Dec 2024 - Present',
