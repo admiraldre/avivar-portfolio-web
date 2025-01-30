@@ -81,8 +81,7 @@ const About = () => {
                             My journey into tech has been quite the plot twist! 🚀 My first two co-op terms as an <strong>Engineering Project Assistant</strong> at Houle introduced me to real-world problem-solving, while my
                             third term as a <strong>Data Analyst</strong> at TRU sparked my love affair with data &#40;fun fact: I started out wanting to be a game designer...oh, how the tables turned&#41;. By my fourth term, I was
                             leading the charge at <strong>Kamloops Film Society</strong>, designing a database for their MovieMart collection.
-                            And now? I’m juggling roles as an <strong>AI/ML Engineer Intern</strong> for not one, not two, but <strong>three companies</strong>—AIModels, ChmlTech, and Ecobased.AI—through Riipen. It’s like a tech sitcom,
-                            and I’m the overbooked protagonist.
+                            And now? I’m an <strong>ML Engineer Intern</strong> for AIModels, where I focus on predicting potential failures in Data Centers using machine learning techniques.
                         </div>
 
                         <div class="third-parag">
