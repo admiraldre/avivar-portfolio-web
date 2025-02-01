@@ -3,7 +3,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
 import kfsdbimg from '../../assets/images/kfs_db.png';
-// import stockimg from '../../assets/images/stock_analysis.png';
+import stockimg from '../../assets/images/stock_analysis.png';
 import portfolioimg from '../../assets/images/portfolio_img.png';
 import instrutrackerimg from '../../assets/images/instrutracker.png';
 import cybersecimg from '../../assets/images/cyberimg.png';
@@ -39,14 +39,14 @@ const Projects = () => {
         return () => observer.disconnect();
     }, []);
     const projects = [
-        // {
-        //     title: 'Stock Analysis AI Agent - ONGOING',
-        //     description: 'Collaborated with ChmlTech Ltd. to work on a project that uses AI to analyze stock data and predict future stock prices.',
-        //     screenshot: stockimg,
-        //     github: 'https://github.com/admiraldre/stock-analysis-ai-agent',
-        //     youtube: 'https://www.youtube.com/watch?v=yourvideoid',
-        //     technologies: ['CrewAI', 'LangChain', 'Python', 'LangSmith']
-        // },
+        {
+            title: 'Stock Analysis AI Crew',
+            description: 'Collaborated with ChmlTech Ltd. to work on a project that uses AI to analyze stock data and predict future stock prices.',
+            screenshot: stockimg,
+            github: 'https://github.com/admiraldre/stock-analysis-ai-agent',
+            youtube: 'https://www.youtube.com/watch?v=yourvideoid',
+            technologies: ['CrewAI', 'LangChain', 'Python', 'LangSmith', 'Ollama Mistral']
+        },
         // {
         //     title: 'Predictive Maintenenace System for Data Centers - ONGOING',
         //     description: 'Collaborated with ChmlTech Ltd. to work on a project that uses AI to analyze stock data and predict future stock prices.',
