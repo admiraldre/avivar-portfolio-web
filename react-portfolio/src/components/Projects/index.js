@@ -41,7 +41,7 @@ const Projects = () => {
     const projects = [
         {
             title: 'Stock Analysis AI Crew',
-            description: 'Collaborated with ChmlTech Ltd. to work on a project that uses AI to analyze stock data and predict future stock prices.',
+            description: "This project builds on CrewAI's Stock Analysis example to create an AI-powered stock analysis tool. By using open-source alternatives and integrating Local LLMs with Ollama Mistral embeddings, it offers scalable, flexible, and cost-effective processing of stock data for efficient query handling.",
             screenshot: stockimg,
             github: 'https://github.com/admiraldre/stock-analysis-ai-agent',
             youtube: 'https://www.youtube.com/watch?v=yourvideoid',
