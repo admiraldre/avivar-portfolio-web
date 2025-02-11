@@ -48,30 +48,11 @@ const Projects = () => {
             github: 'https://github.com/admiraldre/stock-analysis-ai-agent',
             technologies: ['CrewAI', 'LangChain', 'Python', 'LangSmith', 'Ollama Mistral']
         },
-        // {
-        //     title: 'Predictive Maintenenace System for Data Centers - ONGOING',
-        //     description: 'Collaborated with ChmlTech Ltd. to work on a project that uses AI to analyze stock data and predict future stock prices.',
-        //     screenshot: stockimg,
-        //     github: 'https://github.com/admiraldre/stock-analysis-ai-agent',
-        //     youtube: 'https://www.youtube.com/watch?v=yourvideoid',
-        //     technologies: ['CrewAI', 'LangChain', 'Python', 'LangSmith']
-        // },
-        //     title: 'Predictive Maintenenace System for Data Centers - ONGOING',
-        //     description: 'Collaborated with ChmlTech Ltd. to work on a project that uses AI to analyze stock data and predict future stock prices.',
-        //     screenshot: stockimg,
-        //     github: 'https://github.com/admiraldre/stock-analysis-ai-agent',
-        //     youtube: 'https://www.youtube.com/watch?v=yourvideoid',
-        //     technologies: ['CrewAI', 'LangChain', 'Python', 'LangSmith']
-        // },
         {
-            title: 'MovieMart Online Library',
-            company: 'Kamloops Film Society',
-            date: 'Jun 2024 - Nov 2024',
-            description: 'Developed a lightweight ETL pipeline using TMDB API and Google Apps Script to automate data collection and transformation into a Google Sheet database, subsequently integrated with a WordPress website to dynamically populate custom post types.',
-            screenshot: kfsdbimg,
-            github: 'https://github.com/admiraldre/kfs-moviemart-database',
-            youtube: 'https://www.youtube.com/watch?v=yourvideoid',
-            technologies: ['Python', 'SQL', 'MySQL', 'ETL Pipeline Development', 'REST API', 'Git', 'Unix', 'PHP', 'HTML', 'CSS', 'JavaScript']
+            title: 'Regenerative Impact AI Calculator',
+            description: 'Developmeny of an AI-powered calculator that estimates the regenerative impact of a business on the environment. The calculator uses a machine learning model to predict the environmental impact of a business based on its operations and practices.',
+            github: 'https://github.com/ECOBASEDAI/RegenAIcalculator',
+            technologies: ['CrewAI', 'Python', 'Flask', 'API', 'Machine Learning']
         },
         {
             title: 'Drone Camera Toolbox',
@@ -82,6 +63,16 @@ const Projects = () => {
             github: 'https://github.com/admiraldre/dronecamtoolbox',
             youtube: 'https://drive.google.com/file/d/1Qi1DpFFHuqvmLWB-q94KjqfiMWBuZ-tp/view?usp=sharing',
             technologies: ['Python', 'OpenCV', 'Kalibr', 'ROS', 'Docker', 'Git', 'Linux', 'Bash']
+        },
+        {
+            title: 'MovieMart Online Library',
+            company: 'Kamloops Film Society',
+            date: 'Jun 2024 - Nov 2024',
+            description: 'Developed a lightweight ETL pipeline using TMDB API and Google Apps Script to automate data collection and transformation into a Google Sheet database, subsequently integrated with a WordPress website to dynamically populate custom post types.',
+            screenshot: kfsdbimg,
+            github: 'https://github.com/admiraldre/kfs-moviemart-database',
+            youtube: 'https://www.youtube.com/watch?v=yourvideoid',
+            technologies: ['Python', 'SQL', 'MySQL', 'ETL Pipeline Development', 'REST API', 'Git', 'Unix', 'PHP', 'HTML', 'CSS', 'JavaScript']
         },
         {
             title: 'Cybersecurity Threat Classifier',
