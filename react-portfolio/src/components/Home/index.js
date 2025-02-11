@@ -24,7 +24,7 @@ const Home = () => {
                         <br />
                         <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={18} />
                     </h1>
-                    <h2>Fullstack Development / AI & ML Engineering / One Piece Fan</h2>
+                    <h2>Machine Learning Engineer / One Piece Fan</h2>
                     <div className='button-group'>
                         <Link to='/contact' className='flat-button'>Contact Me!</Link>
                         <a className='flat-button resume-button' href='https://drive.google.com/file/d/1iADs4_rdbBvz2LpeFuB6-yA6trcJkGJy/view?usp=sharing' target='_blank' rel='noopener noreferrer'>My Resume</a>
